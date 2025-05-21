@@ -1,6 +1,6 @@
 /*
    YARA Rule Set
-   Author: Claude
+   Author: Shubhendu Shubham
    Date: 2025-05-21
    Identifier: PHP Web Shells
    Reference: Common PHP webshell patterns
@@ -9,7 +9,7 @@
 rule webshell_php_generic {
     meta:
         description = "Detects generic PHP webshells with common patterns"
-        author = "Claude"
+        author = "Shubhendu Shubham"
         date = "2025-05-21"
         reference = "https://www.acunetix.com/blog/articles/web-shells-101-using-php-introduction-web-shells-part-2/"
         severity = "high"
