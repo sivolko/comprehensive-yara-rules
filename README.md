@@ -9,6 +9,55 @@ A well-organized collection of YARA rules for malware detection and threat hunti
 
 This repository contains a comprehensive collection of YARA rules designed for malware detection and threat hunting. The rules are organized into categories based on malware types, behaviors, and threat actors, making it easy to find and use specific rules for your security needs.
 
+## Project Architecture
+
+```mermaid
+flowchart TD
+    Main[Comprehensive YARA Rules] --> MalwareRules[Malware Rules]
+    Main --> RansomwareRules[Ransomware Rules]
+    Main --> BackdoorRules[Backdoor Rules]
+    Main --> TrojanRules[Trojan Rules]
+    Main --> StealerRules[Information Stealer Rules]
+    Main --> ExploitRules[Exploit Rules]
+    Main --> APTRules[APT Rules]
+    Main --> PackerRules[Packer Rules]
+    Main --> MinerRules[Cryptominer Rules]
+    Main --> WebshellRules[Webshell Rules]
+    Main --> MaldocRules[Malicious Document Rules]
+    Main --> AntiVMRules[Anti-Debug/Anti-VM Rules]
+    Main --> CloudRules[Cloud Rules]
+    Main --> Utils[Utility Scripts]
+    
+    CloudRules --> AWSRules[AWS Rules]
+    CloudRules --> AzureRules[Azure Rules]
+    CloudRules --> GCPRules[GCP Rules]
+    
+    MalwareRules --> Mal1[TrickBot]
+    RansomwareRules --> Ran1[LockBit]
+    BackdoorRules --> Back1[Cobalt Strike]
+    StealerRules --> Steal1[Raccoon]
+    WebshellRules --> Web1[PHP Webshells]
+    APTRules --> APT1[APT41 ShadowPad]
+    
+    AWSRules --> AWS1[Credentials]
+    AWSRules --> AWS2[Lambda Backdoor]
+    AzureRules --> Azure1[Credentials]
+    AzureRules --> Azure2[Functions]
+    AzureRules --> Azure3[ARM Templates]
+    AzureRules --> Azure4[Key Vault]
+    AzureRules --> Azure5[Identity]
+    AzureRules --> Azure6[Storage]
+    AzureRules --> Azure7[Containers]
+    AzureRules --> Azure8[Sentinel]
+    AzureRules --> Azure9[Defender]
+    AzureRules --> Azure10[Attack Surface]
+    AzureRules --> Azure11[Networking]
+    GCPRules --> GCP1[Credentials]
+    GCPRules --> GCP2[Functions]
+    
+    Utils --> U1[Rule Indexer]
+```
+
 ## Structure
 
 The repository is organized into the following main directories:
