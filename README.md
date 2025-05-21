@@ -25,6 +25,10 @@ The repository is organized into the following main directories:
 - `webshells/` - Rules for detecting webshells
 - `maldocs/` - Rules for malicious document detection
 - `antidebug_antivm/` - Rules for anti-debugging and anti-VM techniques
+- `cloud/` - Rules for cloud environments (AWS, Azure, GCP)
+  - `aws/` - Amazon Web Services specific rules
+  - `azure/` - Microsoft Azure specific rules
+  - `gcp/` - Google Cloud Platform specific rules
 - `utils/` - Utility scripts for rule management and indexing
 
 Each category has its own `README.md` file with more detailed information about the rules contained within.
