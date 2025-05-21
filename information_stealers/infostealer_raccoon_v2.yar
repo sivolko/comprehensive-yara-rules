@@ -1,6 +1,6 @@
 /*
    YARA Rule Set
-   Author: Claude
+   Author: Shubhendu Shubham
    Date: 2025-05-21
    Identifier: Raccoon Stealer Malware
    Reference: https://attack.mitre.org/software/S0413/
@@ -9,7 +9,7 @@
 rule infostealer_raccoon_v2 {
     meta:
         description = "Detects Raccoon Stealer v2 malware"
-        author = "Claude"
+        author = "Shubhendu Shubham"
         date = "2025-05-21"
         hash1 = "a9efd0ae841ae3fb4e7f85af8780f90ea9561a642baa7de53a54d03d5686e70b"
         reference = "https://attack.mitre.org/software/S0413/"
