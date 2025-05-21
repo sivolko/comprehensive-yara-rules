@@ -1,6 +1,6 @@
 /*
    YARA Rule Set
-   Author: Claude
+   Author: Shubhendu Shubham
    Date: 2025-05-21
    Identifier: LockBit Ransomware
    Reference: https://attack.mitre.org/software/S0726/
@@ -9,7 +9,7 @@
 rule ransomware_lockbit_3 {
     meta:
         description = "Detects LockBit 3.0 ransomware"
-        author = "Claude"
+        author = "Shubhendu Shubham"
         date = "2025-05-21"
         hash1 = "5a32eb8de90d67acdc6e6142ea91cec95e438ee2fa233135c3752ece1a1da81a"
         reference = "https://attack.mitre.org/software/S0726/"
