@@ -1,6 +1,6 @@
 /*
    YARA Rule Set
-   Author: Claude
+   Author: Shubhendu Shubham
    Date: 2025-05-21
    Identifier: Cobalt Strike Beacon
    Reference: https://attack.mitre.org/software/S0154/
@@ -9,7 +9,7 @@
 rule backdoor_cobaltstrike_beacon {
     meta:
         description = "Detects Cobalt Strike Beacon malware"
-        author = "Claude"
+        author = "Shubhendu Shubham"
         date = "2025-05-21"
         hash1 = "9b2c470c562dd0b483f4a3b640448f99a1dce7a61cc2c8a5c46a0ae2a596f61d"
         reference = "https://attack.mitre.org/software/S0154/"
