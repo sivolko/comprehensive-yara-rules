@@ -1,6 +1,6 @@
 /*
    YARA Rule Set
-   Author: Claude
+   Author: Shubhendu Shubham
    Date: 2025-05-21
    Identifier: APT41 POISONPLUG (ShadowPad) Backdoor
    Reference: https://attack.mitre.org/software/S0596/
@@ -9,7 +9,7 @@
 rule apt_apt41_poisonplug_shadowpad {
     meta:
         description = "Detects APT41 POISONPLUG/ShadowPad backdoor"
-        author = "Claude"
+        author = "Shubhendu Shubham"
         date = "2025-05-21"
         hash1 = "c4a8d5466c4f14f048e8441b382d0c12974ca4435e14e19c05b8fbe9591f5f6e"
         reference = "https://attack.mitre.org/software/S0596/"
