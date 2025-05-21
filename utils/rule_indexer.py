@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Rule Indexer for YARA Rules Repository
-# Author: Claude
+# Author: Shubhendu Shubham
 # Date: 2025-05-21
 
 import os
